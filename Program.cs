@@ -176,6 +176,10 @@ namespace AlgoCasts_Solution
 
             return sb.ToString();
         }
+        public static void Recursive(int length)
+        {
+
+        }
     }
     static class ArrayChunking
     {
@@ -215,6 +219,11 @@ namespace AlgoCasts_Solution
             }
 
             return nestedArray;
+        }
+
+        public static void ChunkArrayWithLinq(Array sourceArray, int chunkSize)
+        {
+
         }
     }
     static class Anagrams
